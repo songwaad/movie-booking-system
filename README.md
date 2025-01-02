@@ -5,6 +5,8 @@ The Movie Ticket Booking System is a web application that allows users to regist
 
 ---
 
+[View (PDF)](movie-booking-system.pdf)
+
 ## Features
 - **User Management**: Registration and login functionality.
 - **Real-Time Seat Selection**: Select and reserve seats dynamically.
