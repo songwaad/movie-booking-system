@@ -1,0 +1,118 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+header .video-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 0 0 0px 0px ;
+}
+
+header video {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+/*----- Content -----*/
+header .content {
+    width: 80%;
+    position: absolute;
+    color: white;
+    top: 0;
+    margin-top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 35px;
+
+}
+
+header .content h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header .content p {
+    margin: 20px 0px;
+    font-size: 14px;
+    width: 300px;
+    word-break: break-all;
+}
+
+header .content .detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header .content .detail h6 {
+    color: rgb(255, 255, 255, .8);
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+header .content .detail h5 {
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+header .content .detail h4 {
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+header .content .detail h3 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+/*----- Button -----*/
+
+header .content .btns {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .content .btns .booking {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-right: 16px;
+    transition: background-color .3s ease, color .3s ease ;
+}
+
+header .content .btns .booking:hover, header .content .btns i:hover {
+    color: white;
+    background-color: red;
+}
+
+header .content .btns i {
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    padding: 14px 14px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

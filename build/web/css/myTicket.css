@@ -1,0 +1,78 @@
+.container {
+    position: relative;
+    width: 90%;
+    margin: 7% auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    justify-items: center;
+}
+
+.flexbox {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.ticket {
+    background-color: rgb(200,200,200,0.3);
+    display: flex;
+    width: 20%;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.ticket:hover {
+    transform: scale(1.1);
+    transition: transform .3s ease;
+}
+
+.losther {
+    width: 100%;
+    background-color: black;
+    padding:50px 0;
+}
+
+.losther h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    color: red;
+}
+
+.losther p {
+    font-size: 8px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.ticket-detail {
+    padding: 10px;
+}
+
+.ticket-detail h3 {
+    padding: 7px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ticket-detail h5 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ticket-detail p {
+    font-size: 14px;
+}
+
+#status {
+    background-color: red; 
+    color:white;
+}

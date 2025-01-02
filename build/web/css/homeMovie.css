@@ -1,0 +1,58 @@
+/*----- Movie -----*/
+
+.container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.container h2 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align:start;
+    margin: 0px 0 30px 13px;
+}
+
+.container .flexbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.container .flexbox .movie {
+    padding: 15px;
+    width: 20%;
+}
+
+.container .flexbox .movie:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.container .flexbox .movie a {
+    color: black;
+}
+
+.container .flexbox .movie img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .flexbox .movie h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;}
+
+.container .flexbox .movie h5 {
+    opacity: .7;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,108 @@
+.container {
+    width: 90%;
+    display: flex;
+    margin: 7% auto;
+}
+
+.container .movie-container {
+    width: 30%;
+    background-color: white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container .movie-container #pay-button {
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: black;
+    padding: 14px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.container .movie-container #pay-button:hover {
+    background-color: rgb(0,0,0,.8);
+}
+
+.container .movie-container .movie-image {
+    width: 50%;
+}
+
+.container .movie-container .movie-image img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .movie-container h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.container .movie-container p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.container .seat-container {
+    background-color: white;
+    padding: 10px 10px;
+    padding-right: 5%;
+}
+
+.container .seat-container .seat-box {
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(0,0,0,.1);
+    border-radius: 10px;
+}
+
+.container .seat-container .seat-box .monitor {
+    width: 100%;
+    background-color: black;
+    height: 20px;
+    margin-bottom: 30px;
+
+}
+
+.container .seat-container .seat-box .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .seat-container .seat-box .row button {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.container .seat-container .seat-box .row button.unavailable {
+    background-color: rgb(40,40,40,.05);
+    cursor:unset;
+}
+
+.container .seat-container .seat-box .row button.unavailable:hover {
+    background-color: rgb(40,40,40,.05);
+}
+
+.container .seat-container .seat-box .row button:hover {
+    background-color: rgb(40,40,40,.1);
+}
+
+.container .seat-container .seat-box .row button.selected {
+    background-color: black;
+    color: white;
+}

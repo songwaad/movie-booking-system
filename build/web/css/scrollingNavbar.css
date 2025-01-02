@@ -1,0 +1,75 @@
+/*----- NAVBAR -----*/
+
+header nav {
+    z-index: 1;
+    top: 0;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    opacity: 1;
+    border-radius: 0 0 15px 15px;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px 20px 5px 10px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease, width 0.3s ease;    
+}
+
+header nav.scrolled {
+    background: rgba(0, 0, 0, 1);
+    width: 90%;
+}
+
+header nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+header nav .menu .logo {
+    color: red;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+header nav .menu a {
+    display: inline-block;
+    color: white;
+    margin: 3px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 7px;
+    font-weight:450;
+    transition: background-color 0.1s ease, color 0.1s ease;
+
+    
+}
+
+header nav .menu a:hover, header nav .menu a.active:hover, header nav .icon a:hover {
+    color: black;
+    background-color: white;
+}
+
+header nav .menu a.active  {
+    background: red;
+}
+
+header nav .icon {
+    display: flex;
+    align-items: center;
+}
+
+header nav .icon div a {
+    color: white;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight:450;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s ease;
+}

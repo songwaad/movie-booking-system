@@ -1,0 +1,45 @@
+.container {
+    margin: 7% auto;
+    width: 90%;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 1;
+}
+
+.container .payment-box {
+    width: 280px;
+    margin: auto;
+}
+
+.container .payment-box .imageBox img {
+    width: 100%;
+}
+
+.container .payment-box h3 {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600
+}
+
+.container .payment-box p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+.container .payment-box button {
+    margin-top: 20px;
+    align-items: center;
+    padding: 13px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container .payment-box button:hover {
+    opacity: .7;
+}

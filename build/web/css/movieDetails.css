@@ -1,0 +1,141 @@
+footer {
+    margin-top: -5%;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 7% auto;
+    padding: 5%;
+}
+
+.container .movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.container .movieContainer .movieImage {
+    width: 30%;
+    text-align: center;
+
+}
+
+.container .movieContainer .movieImage img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .movieContainer .movieDetail {
+    margin-top: 1%;
+    width: 70%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .movieContainer .movieDetail div h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container .movieContainer .movieDetail .movieHead {
+
+}
+
+.container .movieContainer .movieDetail .movieHead p {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.container .movieContainer .movieDetail .movieHead .booking {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 7px;
+    font-weight: 500;
+    transition: background-color .2s ease, color .2s ease ;
+}
+
+.container .movieContainer .movieDetail .movieHead .booking:hover {
+    background-color: rgb(255, 0, 0, .7);
+}
+
+.container .movieContainer .movieDetail .actorContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .movieContainer .movieDetail .actorContainer h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.container .movieContainer .movieDetail .actorContainer .actorDetail {
+    display: flex;
+}
+
+.container .movieContainer .movieDetail .actorContainer .actorDetail .actor {
+    width: 120px;
+}
+
+.container .movieContainer .movieDetail .actorContainer .actorDetail .actor .actorImage img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.container .movieContainer .movieDetail .actorContainer .actorDetail .actor img {
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*----- Movie -----*/
+
+/*----- Synopsis and Trailer -----*/
+
+.synopsisContainer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.synopsisContainer h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.synopsisContainer p {
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.trailerContainer {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.trailerContainer h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.trailerContainer .youtubeContainer {
+    margin-top: 14px;
+}
+
+.actor p {
+    font-size: 15px;
+}
